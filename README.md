@@ -27,7 +27,7 @@ Web untuk pesantren bersama Maskur (Masjid sebagai Kampus untuk Rakyat)
 - Run ```php artisan serve```
 - Open [http://127.0.0.1:8000](http://127.0.0.1:8000)
 - Register Admin User
-- Update database ```pesantren``` using ```phpmyadmin``` or other tools. Insert data to ```user_role``` like this commands:
+- Update database ```pesantren``` using ```phpmyadmin``` or other tools. Insert data to ```user_role``` like this SQL code:
 ```
 INSERT INTO `role_user` (`id`, `role_id`, `user_id`, `created_at`, `updated_at`, `deleted_at`) VALUES (NULL, '1', '1', NULL, NULL, NULL);
 ```
